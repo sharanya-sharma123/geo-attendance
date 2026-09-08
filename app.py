@@ -697,9 +697,8 @@ else:
                 )
 
                 qr_data = (
-                    f"http://localhost:8501/?event={event_row['qr_token']}"
-                )
-
+    f"https://sharanya-sharma123-geo-attendance-app-klqlxy.streamlit.app/?event={event_row['qr_token']}"
+)
                 st.caption(
                     "📱 Scan this QR code to mark attendance."
                 )
