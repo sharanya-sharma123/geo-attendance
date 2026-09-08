@@ -623,8 +623,8 @@ if not event_token:
             st.markdown("### 📱 Event QR Code")
 
             qr_data = (
-                f"http://localhost:8501/?event={qr_token}"
-            )
+    f"https://sharanya-sharma123-geo-attendance-app-klqlxy.streamlit.app/?event={qr_token}"
+)
 
             qr_image = generate_qr(qr_data)
 
